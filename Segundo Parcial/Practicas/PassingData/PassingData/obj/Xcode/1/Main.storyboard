@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NYU-lk-38S">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--マインメニュー-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="FirstViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MnY-dp-3Zy">
+                                <rect key="frame" x="16" y="64" width="343" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MnY-dp-3Zy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="G9q-tL-ilv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MnY-dp-3Zy" secondAttribute="bottom" id="P6f-Pm-rvo"/>
+                            <constraint firstItem="MnY-dp-3Zy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hZT-UB-bVO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MnY-dp-3Zy" secondAttribute="trailing" id="ulE-Fy-lKd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="マインメニュー" id="oHk-YH-kf1">
+                        <barButtonItem key="rightBarButtonItem" title="つぎー＞" id="Pgt-Pk-k4j">
+                            <connections>
+                                <segue destination="FkZ-Wz-qca" kind="show" identifier="DefaultSegue" id="7Rh-Tn-A5U"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="txtFirst" destination="MnY-dp-3Zy" id="Rbo-Vx-klb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456.80000000000001" y="118.29085457271366"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="StS-nK-23u">
+            <objects>
+                <viewController id="FkZ-Wz-qca" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="szR-o5-KtW"/>
+                        <viewControllerLayoutGuide type="bottom" id="oQ9-SL-9NZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rup-6D-Y3j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="こんにちは！" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="703-kH-9jx">
+                                <rect key="frame" x="16" y="64" width="343" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="703-kH-9jx" firstAttribute="top" secondItem="szR-o5-KtW" secondAttribute="bottom" id="4lA-qh-4yb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="703-kH-9jx" secondAttribute="trailing" id="6Zj-1P-Q71"/>
+                            <constraint firstItem="oQ9-SL-9NZ" firstAttribute="top" secondItem="703-kH-9jx" secondAttribute="bottom" id="PmQ-gg-3fp"/>
+                            <constraint firstItem="703-kH-9jx" firstAttribute="leading" secondItem="Rup-6D-Y3j" secondAttribute="leadingMargin" id="dJj-l7-9XY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtSecond" destination="703-kH-9jx" id="bDZ-MD-VQZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WFM-c4-UrY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1353" y="121"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cu8-8i-yfp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NYU-lk-38S" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Q0q-rh-SFE">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="q8i-di-2Zk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oE9-9h-BZb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-526" y="118"/>
+        </scene>
+    </scenes>
+</document>

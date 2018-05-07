@@ -1,0 +1,12 @@
+/Users/ISSC611/Projects/CustomCells/CustomCells/bin/iPhoneSimulator/Debug/CustomCells.exe
+/Users/ISSC611/Projects/CustomCells/CustomCells/bin/iPhoneSimulator/Debug/CustomCells.pdb
+/Users/ISSC611/Projects/CustomCells/CustomCells/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/ISSC611/Projects/CustomCells/CustomCells/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/actool/_PartialAppManifest.items
+/Users/ISSC611/Projects/CustomCells/CustomCells/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/actool/_BundleResourceWithLogicalName.items
+/Users/ISSC611/Projects/CustomCells/CustomCells/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/coremlc/_PartialAppManifest.items
+/Users/ISSC611/Projects/CustomCells/CustomCells/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/coremlc/_BundleResourceWithLogicalName.items
+/Users/ISSC611/Projects/CustomCells/CustomCells/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/optimized/genji.png
+/Users/ISSC611/Projects/CustomCells/CustomCells/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/optimized/
+/Users/ISSC611/Projects/CustomCells/CustomCells/obj/iPhoneSimulator/Debug/CustomCells.csproj.CoreCompileInputs.cache
+/Users/ISSC611/Projects/CustomCells/CustomCells/obj/iPhoneSimulator/Debug/CustomCells.exe
+/Users/ISSC611/Projects/CustomCells/CustomCells/obj/iPhoneSimulator/Debug/CustomCells.pdb

@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{D6EEF8E6-E298-4E60-8A29-57BC78B61D2C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FormularioApp/Main.cs">
+    <Files>
+      <File FileName="FormularioApp/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="FormularioApp/SecondViewController.cs" Line="1" Column="1" />
+      <File FileName="FormularioApp/ViewController.cs" Line="28" Column="24" />
+      <File FileName="FormularioApp/GenderViewModel.cs" Line="21" Column="46" />
+      <File FileName="FormularioApp/Main.cs" Line="12" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FormularioApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7B03A7D4-CD7F-433F-8B80-ABE1ED8D003F">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.FormularioApp>
+  <MultiItemStartupConfigurations />
+</Properties>

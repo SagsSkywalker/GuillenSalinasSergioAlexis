@@ -1,0 +1,9 @@
+/Users/ISSC611/Projects/DateTimeApp/DateTimeApp/bin/iPhoneSimulator/Debug/DateTimeApp.exe
+/Users/ISSC611/Projects/DateTimeApp/DateTimeApp/bin/iPhoneSimulator/Debug/DateTimeApp.pdb
+/Users/ISSC611/Projects/DateTimeApp/DateTimeApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/ISSC611/Projects/DateTimeApp/DateTimeApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.2/actool/_PartialAppManifest.items
+/Users/ISSC611/Projects/DateTimeApp/DateTimeApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.2/actool/_BundleResourceWithLogicalName.items
+/Users/ISSC611/Projects/DateTimeApp/DateTimeApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.2/optimized/
+/Users/ISSC611/Projects/DateTimeApp/DateTimeApp/obj/iPhoneSimulator/Debug/DateTimeApp.csproj.CoreCompileInputs.cache
+/Users/ISSC611/Projects/DateTimeApp/DateTimeApp/obj/iPhoneSimulator/Debug/DateTimeApp.exe
+/Users/ISSC611/Projects/DateTimeApp/DateTimeApp/obj/iPhoneSimulator/Debug/DateTimeApp.pdb

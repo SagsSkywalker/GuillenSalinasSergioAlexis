@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{209164A4-6E22-41AE-B4E7-F89B39D53ACA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PassingData/SecondViewController.cs">
+    <Files>
+      <File FileName="PassingData/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="PassingData/FirstViewController.cs" Line="31" Column="49" />
+      <File FileName="PassingData/FirstViewController.designer.cs" Line="27" Column="1" />
+      <File FileName="PassingData/SecondViewController.cs" Line="26" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PassingData PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8C3DC9DD-9492-4ADC-A454-C6BBD8C7F54A">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.PassingData>
+</Properties>

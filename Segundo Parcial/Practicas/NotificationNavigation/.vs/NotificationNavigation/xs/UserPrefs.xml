@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{500DE9ED-F03C-4463-B061-2F18F22812F7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NotificationNavigation/SecondViewController.cs">
+    <Files>
+      <File FileName="NotificationNavigation/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="NotificationNavigation/ViewController.cs" Line="40" Column="31" />
+      <File FileName="NotificationNavigation/SecondViewController.cs" Line="57" Column="14" />
+      <File FileName="NotificationNavigation/ThirdViewController.cs" Line="38" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ISSC611/Projects/NotificationNavigation/NotificationNavigation/SecondViewController.cs" relfile="NotificationNavigation/SecondViewController.cs" line="37" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NotificationNavigation PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E21BB76F-EFBF-46B6-85A3-5EFCCAEAC2E2">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.NotificationNavigation>
+  <MultiItemStartupConfigurations />
+</Properties>

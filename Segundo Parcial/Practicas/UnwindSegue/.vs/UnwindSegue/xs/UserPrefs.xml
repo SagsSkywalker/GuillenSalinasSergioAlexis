@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{95FBCCA4-D451-49E6-8ADE-EF85450128F8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnwindSegue/Controllers/SecondViewController.cs">
+    <Files>
+      <File FileName="UnwindSegue/Controllers/BaseViewController.cs" Line="10" Column="31" />
+      <File FileName="UnwindSegue/Controllers/ThirdViewController.cs" Line="37" Column="10" />
+      <File FileName="UnwindSegue/Controllers/FirstViewController.cs" Line="31" Column="9" />
+      <File FileName="UnwindSegue/Controllers/SecondViewController.cs" Line="23" Column="1" />
+      <File FileName="UnwindSegue/Controllers/SecondViewController.designer.cs" Line="33" Column="1" />
+      <File FileName="UnwindSegue/Controllers/MyModalViewController.designer.cs" Line="29" Column="1" />
+      <File FileName="UnwindSegue/Controllers/MyModalViewController.cs" Line="29" Column="44" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.UnwindSegue PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E3EDD67F-58AE-494C-8481-6EA9D0805446">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.UnwindSegue>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

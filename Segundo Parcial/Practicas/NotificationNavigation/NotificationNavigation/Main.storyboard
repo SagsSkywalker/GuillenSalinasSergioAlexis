@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="236-3n-0jM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="kPj-Hq-PnN">
+                                <rect key="frame" x="110" y="235.5" width="154" height="195"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVS-Ay-cY7">
+                                        <rect key="frame" x="7.5" y="0.0" width="139" height="30"/>
+                                        <state key="normal" title="Register NC Method"/>
+                                        <connections>
+                                            <action selector="btnRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6AY-qV-1iR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fxd-nO-awp">
+                                        <rect key="frame" x="0.0" y="55" width="154" height="30"/>
+                                        <state key="normal" title="Unregister NC Method"/>
+                                        <connections>
+                                            <action selector="btnUnregister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LTQ-96-EXY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ygl-X0-MRf">
+                                        <rect key="frame" x="8.5" y="110" width="137" height="30"/>
+                                        <state key="normal" title="Next ViewController"/>
+                                        <connections>
+                                            <segue destination="EZ0-q9-sX2" kind="show" id="15W-tJ-zoX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBP-pa-hfd">
+                                        <rect key="frame" x="47.5" y="165" width="59" height="30"/>
+                                        <state key="normal" title="Test me!"/>
+                                        <connections>
+                                            <action selector="btnTestme:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jQ0-2S-oVE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kPj-Hq-PnN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wG7-1T-eAL"/>
+                            <constraint firstItem="kPj-Hq-PnN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xmu-Tg-fhn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Goj-tt-8af"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="216.80000000000001" y="285.60719640179911"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="yYg-oh-zF2">
+            <objects>
+                <viewController id="EZ0-q9-sX2" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WS1-5P-tqb"/>
+                        <viewControllerLayoutGuide type="bottom" id="uLl-yH-bTM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8TK-mT-1pI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="bJS-19-n8k">
+                                <rect key="frame" x="110.5" y="236" width="154" height="195"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GP6-3x-9B1">
+                                        <rect key="frame" x="7.5" y="0.0" width="139" height="30"/>
+                                        <state key="normal" title="Register NC Method"/>
+                                        <connections>
+                                            <action selector="btnRegister:" destination="EZ0-q9-sX2" eventType="touchUpInside" id="kHT-Oz-Mi3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPz-4G-YXq">
+                                        <rect key="frame" x="0.0" y="55" width="154" height="30"/>
+                                        <state key="normal" title="Unregister NC Method"/>
+                                        <connections>
+                                            <action selector="btnUnregister:" destination="EZ0-q9-sX2" eventType="touchUpInside" id="Am9-Yo-CFb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbK-BI-wws">
+                                        <rect key="frame" x="8.5" y="110" width="137" height="30"/>
+                                        <state key="normal" title="Next ViewController"/>
+                                        <connections>
+                                            <segue destination="J2M-4F-Uua" kind="show" id="bgQ-ft-H2e"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3Z-uN-G6v">
+                                        <rect key="frame" x="47.5" y="165" width="59" height="30"/>
+                                        <state key="normal" title="Test me!"/>
+                                        <connections>
+                                            <action selector="btnTestme:" destination="EZ0-q9-sX2" eventType="touchUpInside" id="E8J-d0-e6B"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bJS-19-n8k" firstAttribute="centerY" secondItem="8TK-mT-1pI" secondAttribute="centerY" id="6yv-E1-1We"/>
+                            <constraint firstItem="bJS-19-n8k" firstAttribute="centerX" secondItem="8TK-mT-1pI" secondAttribute="centerX" id="gxz-3v-h3Q"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CwW-Gq-Dcu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1025" y="286"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="8iK-Lv-nK2">
+            <objects>
+                <viewController id="J2M-4F-Uua" customClass="ThirdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XfT-ts-yIG"/>
+                        <viewControllerLayoutGuide type="bottom" id="sEy-01-YhM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dNB-Ft-gDc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="ze3-Hw-Tut">
+                                <rect key="frame" x="110.5" y="263.5" width="154" height="140"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2t9-Vl-qAn">
+                                        <rect key="frame" x="7.5" y="0.0" width="139" height="30"/>
+                                        <state key="normal" title="Register NC Method"/>
+                                        <connections>
+                                            <action selector="btnRegister:" destination="J2M-4F-Uua" eventType="touchUpInside" id="Rh6-dN-N2y"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95b-44-cuq">
+                                        <rect key="frame" x="0.0" y="55" width="154" height="30"/>
+                                        <state key="normal" title="Unregister NC Method"/>
+                                        <connections>
+                                            <action selector="btnUnregister:" destination="J2M-4F-Uua" eventType="touchUpInside" id="Xo9-Qz-EJ6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wak-ec-ExP">
+                                        <rect key="frame" x="47.5" y="110" width="59" height="30"/>
+                                        <state key="normal" title="Test me!"/>
+                                        <connections>
+                                            <action selector="btnTestme:" destination="J2M-4F-Uua" eventType="touchUpInside" id="2sh-Au-kRk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ze3-Hw-Tut" firstAttribute="centerX" secondItem="dNB-Ft-gDc" secondAttribute="centerX" id="cgV-ZG-6u4"/>
+                            <constraint firstItem="ze3-Hw-Tut" firstAttribute="centerY" secondItem="dNB-Ft-gDc" secondAttribute="centerY" id="rd0-mp-GZ8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sha-88-t87" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1854" y="286"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EyT-qE-dPg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="236-3n-0jM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="byg-yy-2aY">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ZyA-xd-Kpz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dBX-21-MSh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-566" y="286"/>
+        </scene>
+    </scenes>
+</document>

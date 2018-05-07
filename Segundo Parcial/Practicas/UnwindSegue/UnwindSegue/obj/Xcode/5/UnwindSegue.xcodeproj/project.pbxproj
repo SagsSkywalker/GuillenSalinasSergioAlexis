@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31CBCE460000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EDE7820000000000000000 /* UIKit.framework */; };
+		9FC3AC140000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E5C5500000000000000000 /* MapKit.framework */; };
+		D6BF9AFB0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE1B4370000000000000000 /* Foundation.framework */; };
+		DBB89E200000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DDA31E0000000000000000 /* CoreGraphics.framework */; };
+		520CB6C00000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C42E4A80000000000000000 /* Assets.xcassets */; };
+		965D612E0000000000000000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D7F7A6A0000000000000000 /* LaunchScreen.storyboard */; };
+		20DDA3EC0000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FFBD280000000000000000 /* Main.storyboard */; };
+		D266CF900000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 944886350000000000000000 /* Info.plist */; };
+		9233AB3C0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1955C4780000000000000000 /* Entitlements.plist */; };
+		570E06630000000000000000 /* MyModalViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = DE301F9F0000000000000000 /* MyModalViewController.h */; };
+		DC1B44A60000000000000000 /* MyModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D5DE20000000000000000 /* MyModalViewController.m */; };
+		32FDC1FF0000000000000000 /* ThirdViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = BA1FDB3B0000000000000000 /* ThirdViewController.h */; };
+		89E03F580000000000000000 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110258940000000000000000 /* ThirdViewController.m */; };
+		DB4FB8360000000000000000 /* SecondViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 6271D1720000000000000000 /* SecondViewController.h */; };
+		3B03638C0000000000000000 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2257CC80000000000000000 /* SecondViewController.m */; };
+		91E5E0E50000000000000000 /* FirstViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 1907FA210000000000000000 /* FirstViewController.h */; };
+		3166A91F0000000000000000 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B888C25B0000000000000000 /* FirstViewController.m */; };
+		29DEC9AB0000000000000000 /* BaseViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = B100E2E70000000000000000 /* BaseViewController.h */; };
+		3EDF4F270000000000000000 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C60168630000000000000000 /* BaseViewController.m */; };
+		1CE3E5BC0000000000000000 /* ViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = A405FEF80000000000000000 /* ViewController.h */; };
+		FAE87C510000000000000000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A958D0000000000000000 /* ViewController.m */; };
+		DC4B3C680000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 636D55A40000000000000000 /* AppDelegate.h */; };
+		7DE0DF9B0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 502F8D700000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D74008D0000000000000000 /* UnwindSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "UnwindSegue.app"; path = "UnwindSegue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EDE7820000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		26E5C5500000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		5DE1B4370000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		94DDA31E0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		8C42E4A80000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		1D7F7A6A0000000000000000 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "LaunchScreen.storyboard"; path = "LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		A7FFBD280000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
+		944886350000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		1955C4780000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		DE301F9F0000000000000000 /* MyModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyModalViewController.h"; path = "MyModalViewController.h"; sourceTree = "<group>"; };
+		633D5DE20000000000000000 /* MyModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MyModalViewController.m"; path = "MyModalViewController.m"; sourceTree = "<group>"; };
+		BA1FDB3B0000000000000000 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ThirdViewController.h"; path = "ThirdViewController.h"; sourceTree = "<group>"; };
+		110258940000000000000000 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ThirdViewController.m"; path = "ThirdViewController.m"; sourceTree = "<group>"; };
+		6271D1720000000000000000 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SecondViewController.h"; path = "SecondViewController.h"; sourceTree = "<group>"; };
+		C2257CC80000000000000000 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SecondViewController.m"; path = "SecondViewController.m"; sourceTree = "<group>"; };
+		1907FA210000000000000000 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FirstViewController.h"; path = "FirstViewController.h"; sourceTree = "<group>"; };
+		B888C25B0000000000000000 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "FirstViewController.m"; path = "FirstViewController.m"; sourceTree = "<group>"; };
+		B100E2E70000000000000000 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BaseViewController.h"; path = "BaseViewController.h"; sourceTree = "<group>"; };
+		C60168630000000000000000 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "BaseViewController.m"; path = "BaseViewController.m"; sourceTree = "<group>"; };
+		A405FEF80000000000000000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController.h"; path = "ViewController.h"; sourceTree = "<group>"; };
+		820A958D0000000000000000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController.m"; path = "ViewController.m"; sourceTree = "<group>"; };
+		636D55A40000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		502F8D700000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C0487AF0000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CBCE460000000000000000 /* UIKit.framework in Frameworks */,
+				9FC3AC140000000000000000 /* MapKit.framework in Frameworks */,
+				D6BF9AFB0000000000000000 /* Foundation.framework in Frameworks */,
+				DBB89E200000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A18444F10000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				FDD9C6C50000000000000000 /* UnwindSegue */,
+				735984070000000000000000 /* Frameworks */,
+				CFAF05DB0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFAF05DB0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D74008D0000000000000000 /* UnwindSegue.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		735984070000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8EDE7820000000000000000 /* UIKit.framework */,
+				26E5C5500000000000000000 /* MapKit.framework */,
+				5DE1B4370000000000000000 /* Foundation.framework */,
+				94DDA31E0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		FDD9C6C50000000000000000 /* UnwindSegue */ = {
+			isa = PBXGroup;
+			children = (
+				636D55A40000000000000000 /* AppDelegate.h */,
+				502F8D700000000000000000 /* AppDelegate.m */,
+				8C42E4A80000000000000000 /* Assets.xcassets */,
+				B100E2E70000000000000000 /* BaseViewController.h */,
+				C60168630000000000000000 /* BaseViewController.m */,
+				1955C4780000000000000000 /* Entitlements.plist */,
+				1907FA210000000000000000 /* FirstViewController.h */,
+				B888C25B0000000000000000 /* FirstViewController.m */,
+				944886350000000000000000 /* Info.plist */,
+				1D7F7A6A0000000000000000 /* LaunchScreen.storyboard */,
+				A7FFBD280000000000000000 /* Main.storyboard */,
+				DE301F9F0000000000000000 /* MyModalViewController.h */,
+				633D5DE20000000000000000 /* MyModalViewController.m */,
+				6271D1720000000000000000 /* SecondViewController.h */,
+				C2257CC80000000000000000 /* SecondViewController.m */,
+				BA1FDB3B0000000000000000 /* ThirdViewController.h */,
+				110258940000000000000000 /* ThirdViewController.m */,
+				A405FEF80000000000000000 /* ViewController.h */,
+				820A958D0000000000000000 /* ViewController.m */,
+			);
+			name = "UnwindSegue";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD411D710000000000000000 /* UnwindSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80DB4D90000000000000000 /* Build configuration list for PBXNativeTarget "UnwindSegue" */;
+			buildPhases = (
+				F7C22BF00000000000000000 /* Sources */,
+				2C0487AF0000000000000000 /* Frameworks */,
+				1DC055370000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UnwindSegue";
+			productName = "UnwindSegue";
+			productReference = 7D74008D0000000000000000 /* UnwindSegue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89A3580C0000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8F165C870000000000000000 /* Build configuration list for PBXProject "UnwindSegue" */;
+			compatibilityVersion = "Xcode 8.0";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A18444F10000000000000000;
+			productRefGroup = CFAF05DB0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD411D710000000000000000 /* UnwindSegue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DC055370000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520CB6C00000000000000000 /* Assets.xcassets in Resources */,
+				965D612E0000000000000000 /* LaunchScreen.storyboard in Resources */,
+				20DDA3EC0000000000000000 /* Main.storyboard in Resources */,
+				D266CF900000000000000000 /* Info.plist in Resources */,
+				9233AB3C0000000000000000 /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7C22BF00000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570E06630000000000000000 /* MyModalViewController.h in Sources */,
+				DC1B44A60000000000000000 /* MyModalViewController.m in Sources */,
+				32FDC1FF0000000000000000 /* ThirdViewController.h in Sources */,
+				89E03F580000000000000000 /* ThirdViewController.m in Sources */,
+				DB4FB8360000000000000000 /* SecondViewController.h in Sources */,
+				3B03638C0000000000000000 /* SecondViewController.m in Sources */,
+				91E5E0E50000000000000000 /* FirstViewController.h in Sources */,
+				3166A91F0000000000000000 /* FirstViewController.m in Sources */,
+				29DEC9AB0000000000000000 /* BaseViewController.h in Sources */,
+				3EDF4F270000000000000000 /* BaseViewController.m in Sources */,
+				1CE3E5BC0000000000000000 /* ViewController.h in Sources */,
+				FAE87C510000000000000000 /* ViewController.m in Sources */,
+				DC4B3C680000000000000000 /* AppDelegate.h in Sources */,
+				7DE0DF9B0000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23F338BA0000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C916FD310000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AB7E37E0000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skywalker.UnwindSegue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Debug;
+		};
+		266803370000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skywalker.UnwindSegue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F165C870000000000000000 /* Build configuration list for PBXProject "UnwindSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F338BA0000000000000000 /* Debug */,
+				C916FD310000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E80DB4D90000000000000000 /* Build configuration list for PBXNativeTarget "UnwindSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB7E37E0000000000000000 /* Debug */,
+				266803370000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89A3580C0000000000000000 /* Project object */;
+}

@@ -1,0 +1,11 @@
+/Users/ISSC611/Projects/PhotoPicker/PhotoPicker/bin/iPhoneSimulator/Debug/PhotoPicker.exe
+/Users/ISSC611/Projects/PhotoPicker/PhotoPicker/bin/iPhoneSimulator/Debug/PhotoPicker.pdb
+/Users/ISSC611/Projects/PhotoPicker/PhotoPicker/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/ISSC611/Projects/PhotoPicker/PhotoPicker/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.2/actool/_PartialAppManifest.items
+/Users/ISSC611/Projects/PhotoPicker/PhotoPicker/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.2/actool/_BundleResourceWithLogicalName.items
+/Users/ISSC611/Projects/PhotoPicker/PhotoPicker/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.2/coremlc/_PartialAppManifest.items
+/Users/ISSC611/Projects/PhotoPicker/PhotoPicker/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/ISSC611/Projects/PhotoPicker/PhotoPicker/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.2/optimized/
+/Users/ISSC611/Projects/PhotoPicker/PhotoPicker/obj/iPhoneSimulator/Debug/PhotoPicker.csproj.CoreCompileInputs.cache
+/Users/ISSC611/Projects/PhotoPicker/PhotoPicker/obj/iPhoneSimulator/Debug/PhotoPicker.exe
+/Users/ISSC611/Projects/PhotoPicker/PhotoPicker/obj/iPhoneSimulator/Debug/PhotoPicker.pdb

@@ -1,0 +1,11 @@
+/Users/ISSC611/Projects/FormularioApp/FormularioApp/bin/iPhoneSimulator/Debug/FormularioApp.exe
+/Users/ISSC611/Projects/FormularioApp/FormularioApp/bin/iPhoneSimulator/Debug/FormularioApp.pdb
+/Users/ISSC611/Projects/FormularioApp/FormularioApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/ISSC611/Projects/FormularioApp/FormularioApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/actool/_PartialAppManifest.items
+/Users/ISSC611/Projects/FormularioApp/FormularioApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/actool/_BundleResourceWithLogicalName.items
+/Users/ISSC611/Projects/FormularioApp/FormularioApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/coremlc/_PartialAppManifest.items
+/Users/ISSC611/Projects/FormularioApp/FormularioApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/ISSC611/Projects/FormularioApp/FormularioApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/optimized/
+/Users/ISSC611/Projects/FormularioApp/FormularioApp/obj/iPhoneSimulator/Debug/FormularioApp.csproj.CoreCompileInputs.cache
+/Users/ISSC611/Projects/FormularioApp/FormularioApp/obj/iPhoneSimulator/Debug/FormularioApp.exe
+/Users/ISSC611/Projects/FormularioApp/FormularioApp/obj/iPhoneSimulator/Debug/FormularioApp.pdb

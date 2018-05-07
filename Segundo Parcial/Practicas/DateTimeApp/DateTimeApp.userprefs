@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{EA330165-9A2C-4477-A3A8-4CD5B65BC8D8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DateTimeApp/ViewController.cs">
+    <Files>
+      <File FileName="DateTimeApp/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="DateTimeApp/ViewController.designer.cs" Line="41" Column="1" />
+      <File FileName="DateTimeApp/ViewController.cs" Line="42" Column="15" />
+      <File FileName="DateTimeApp/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DateTimeApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E21BB76F-EFBF-46B6-85A3-5EFCCAEAC2E2" automaticSigning="False">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.DateTimeApp>
+  <MultiItemStartupConfigurations />
+</Properties>
